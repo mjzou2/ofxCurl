@@ -7,7 +7,6 @@ if(NOT TARGET ofxCurl)
 
   # Make a list of source files and define that to be ${SOURCE_LIST}.
   file(GLOB SOURCE_LIST CONFIGURE_DEPENDS
-      "${ofxCurl_PROJECT_ROOT}/src/HttpClient.cpp"
       "${ofxCurl_PROJECT_ROOT}/src/HttpClient.h"
       )
 
